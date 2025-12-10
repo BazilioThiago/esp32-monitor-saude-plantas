@@ -1,0 +1,111 @@
+The system is: Windows - 10.0.26100 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+Compilação de 10/12/2025 10:14:42 iniciada.
+Projeto "C:\Users\thiag\Downloads\esp-idf-sx127x\basic\build\CMakeFiles\3.23.22060601-MSVC_2\CompilerIdC\CompilerIdC.vcxproj" no nó 1 (destinos padrão).
+PrepareForBuild:
+  Criando o diretório "Debug\".
+  Criando o diretório "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Criando "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\thiag\Downloads\esp-idf-sx127x\basic\build\CMakeFiles\3.23.22060601-MSVC_2\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  Excluindo o arquivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Tocando "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Projeto de compilação pronto "C:\Users\thiag\Downloads\esp-idf-sx127x\basic\build\CMakeFiles\3.23.22060601-MSVC_2\CompilerIdC\CompilerIdC.vcxproj" (destinos padrão).
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:03.51
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/thiag/Downloads/esp-idf-sx127x/basic/build/CMakeFiles/3.23.22060601-MSVC_2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+Compilação de 10/12/2025 10:14:46 iniciada.
+Projeto "C:\Users\thiag\Downloads\esp-idf-sx127x\basic\build\CMakeFiles\3.23.22060601-MSVC_2\CompilerIdCXX\CompilerIdCXX.vcxproj" no nó 1 (destinos padrão).
+PrepareForBuild:
+  Criando o diretório "Debug\".
+  Criando o diretório "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Criando "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\thiag\Downloads\esp-idf-sx127x\basic\build\CMakeFiles\3.23.22060601-MSVC_2\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  Excluindo o arquivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Tocando "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Projeto de compilação pronto "C:\Users\thiag\Downloads\esp-idf-sx127x\basic\build\CMakeFiles\3.23.22060601-MSVC_2\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos padrão).
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:01.45
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/thiag/Downloads/esp-idf-sx127x/basic/build/CMakeFiles/3.23.22060601-MSVC_2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/thiag/Downloads/esp-idf-sx127x/basic/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_656e1.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Versão 19.33.31629 para x86
+  CMakeCCompilerABI.c
+  Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_656e1.dir\Debug\\" /Fd"cmTC_656e1.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_656e1.vcxproj -> C:\Users\thiag\Downloads\esp-idf-sx127x\basic\build\CMakeFiles\CMakeTmp\Debug\cmTC_656e1.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/thiag/Downloads/esp-idf-sx127x/basic/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d04bc.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Versão 19.33.31629 para x86
+  CMakeCXXCompilerABI.cpp
+  Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d04bc.dir\Debug\\" /Fd"cmTC_d04bc.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_d04bc.vcxproj -> C:\Users\thiag\Downloads\esp-idf-sx127x\basic\build\CMakeFiles\CMakeTmp\Debug\cmTC_d04bc.exe
+
+
+
